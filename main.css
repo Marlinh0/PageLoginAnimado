@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+.pricipal{
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.video{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -10;    
+}
+
+ nav{   
+        margin: auto;
+        margin-top: 15%;
+    width:400px;
+    height: 440px;
+    background: transparent;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-align: center;   
+}
+
+ .titulo{
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    padding-top: 11%;
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-bottom: 20px;
+}
+
+.legenda{
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    padding-top: 0;
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-bottom: 15px;
+}
+
+label, a {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#email1, #senha1{
+    margin: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#lembrar1{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#links{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+#botao {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#campo {
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-left: 5px;
+    margin-bottom: 2px;
+    text-align: left;
+}
